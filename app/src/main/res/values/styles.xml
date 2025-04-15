@@ -1,0 +1,12 @@
+<resources>
+    <!-- Стиль для настройки формы (закругленные углы) -->
+    <style name="CustomDatePickerDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="shapeAppearance">@style/CustomShape</item>
+    </style>
+
+    <!-- Стиль для закругленных углов -->
+    <style name="CustomShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item> <!-- Размер закругления -->
+    </style>
+</resources>
